@@ -6,9 +6,9 @@
 void insert_sort(int* p,int n)
 {
 	int i,tmp,j;
-	if (n > 2)
+	//if (n > 2)
 	{
-		insert_sort(p, n - 1);
+		//insert_sort(p, n - 1);
 
 	}
 
