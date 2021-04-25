@@ -1,4 +1,4 @@
-// InsertSort.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// InsertSort.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
@@ -6,6 +6,7 @@
 void insert_sort(int* p,int n)
 {
 	int i,tmp,j;
+	//n>2ä¸èƒ½çœç•¥
 	if (n > 2)
 	{
 		insert_sort(p, n - 1);
