@@ -12,7 +12,7 @@ void insert_sort(int* p,int n)
 
 	}
 
-		for (i = 0; i < n - 1; ++i)
+		//for (i = 0; i < n - 1; ++i)
 		{
 			if (p[i] < p[n - 1])continue;
 			else
